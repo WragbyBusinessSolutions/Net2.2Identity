@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Net2._2Identity.Models;
-using Net2._2Identity.Models.AccountViewModels;
-using Net2._2Identity.Services;
+using Iwigit.Models;
+using Iwigit.Models.AccountViewModels;
+using Iwigit.Services;
 
-namespace Net2._2Identity.Controllers
+namespace Iwigit.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]

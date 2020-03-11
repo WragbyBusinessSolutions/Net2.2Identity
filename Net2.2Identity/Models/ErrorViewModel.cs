@@ -1,6 +1,6 @@
 using System;
 
-namespace Net2._2Identity.Models
+namespace Iwigit.Models
 {
     public class ErrorViewModel
     {

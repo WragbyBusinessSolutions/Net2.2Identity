@@ -10,14 +10,14 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Net2._2Identity.Data;
+using Iwigit.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Net2._2Identity.Models;
+using Iwigit.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Net2._2Identity.Services;
+using Iwigit.Services;
 
-namespace Net2._2Identity
+namespace Iwigit
 {
     public class Startup
     {
@@ -61,7 +61,7 @@ namespace Net2._2Identity
 
             services.AddTransient<IEmailSender, EmailSender>();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

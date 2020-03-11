@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Net2._2Identity.Data.Migrations
+namespace Iwigit.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

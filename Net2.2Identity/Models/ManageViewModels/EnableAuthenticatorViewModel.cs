@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace Net2._2Identity.Models.ManageViewModels
+namespace Iwigit.Models.ManageViewModels
 {
     public class EnableAuthenticatorViewModel
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 
-namespace Net2._2Identity.Views.Manage
+namespace Iwigit.Views.Manage
 {
     public static class ManageNavPages
     {

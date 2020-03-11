@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 
-namespace Net2._2Identity.Models.ManageViewModels
+namespace Iwigit.Models.ManageViewModels
 {
     public class ExternalLoginsViewModel
     {

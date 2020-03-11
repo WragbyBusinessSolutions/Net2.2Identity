@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Net2._2Identity.Models;
-using Net2._2Identity.Models.ManageViewModels;
-using Net2._2Identity.Services;
+using Iwigit.Models;
+using Iwigit.Models.ManageViewModels;
+using Iwigit.Services;
 
-namespace Net2._2Identity.Controllers
+namespace Iwigit.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]
@@ -522,7 +522,7 @@ namespace Net2._2Identity.Controllers
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("Net2._2Identity"),
+                _urlEncoder.Encode("Iwigit"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

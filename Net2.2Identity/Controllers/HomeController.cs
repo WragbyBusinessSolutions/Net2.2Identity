@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Net2._2Identity.Models;
+using Iwigit.Models;
 
-namespace Net2._2Identity.Controllers
+namespace Iwigit.Controllers
 {
     public class HomeController : Controller
     {

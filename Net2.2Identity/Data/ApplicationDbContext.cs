@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Net2._2Identity.Models;
+using Iwigit.Models;
 
-namespace Net2._2Identity.Data
+namespace Iwigit.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

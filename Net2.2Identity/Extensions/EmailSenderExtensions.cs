@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
-using Net2._2Identity.Services;
+using Iwigit.Services;
 
-namespace Net2._2Identity.Services
+namespace Iwigit.Services
 {
     public static class EmailSenderExtensions
     {
